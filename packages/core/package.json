@@ -1,0 +1,17 @@
+{
+  "name": "@testing-stepfunctions-demo/core",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "sst bind vitest",
+    "typecheck": "tsc -noEmit"
+  },
+  "devDependencies": {
+    "vitest": "^1.0.1",
+    "@types/node": "^20.10.3",
+    "sst": "^2.37.0"
+  },
+  "dependencies": {
+    "zod": "^3.22.4"
+  }
+}
